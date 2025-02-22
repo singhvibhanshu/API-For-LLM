@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 load_dotenv() # loads a value from our environment variables
 
-API_KEYS = {os.getenv("API_KEY")}
+API_KEY_CREDITS = {os.getenv("API_KEY"): 5}
 
 app = FastAPI()
 
