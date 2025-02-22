@@ -1,5 +1,5 @@
-fastapi
-uvicorn
-ollama
-requests
-python-dotenv
+fastapi # for building our API
+uvicorn # for running our fastAPI application
+ollama # for interacting with Ollama to use a local LLM
+requests # for sending a request to our API
+python-dotenv # for loading in an environment variable file
