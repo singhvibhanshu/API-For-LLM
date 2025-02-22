@@ -1,5 +1,11 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Depends, HTTPException, Header
 import ollama
+import os
+from dotenv import load_dotenv
+
+load_dotenv() # loads a value from our environment variables
+
+API_KEYS = {os.getenv("API_KEY")}
 
 app = FastAPI()
 
