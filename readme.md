@@ -107,6 +107,3 @@ curl -X POST "http://127.0.0.1:8000/generate/" \
 - Adjust the `temperature` and `max_tokens` parameters as needed to get the desired output.
 
 ---
-
-Feel free to modify this `README.md` to better suit your project's specifics. Let me know if you need any more help!
-
