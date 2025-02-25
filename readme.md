@@ -29,10 +29,10 @@ This project provides an API interface for Large Language Models (LLMs) using Fa
    Create a `.env` file in the root directory with the following content:
 
    ```env
-   OPENAI_API_KEY=your_openai_api_key_here
+   API_KEY=your_api_key_here
    ```
 
-   Replace `your_openai_api_key_here` with your actual OpenAI API key.
+   Replace `your_api_key_here` with your actual API key.
 
 ## Usage
 
