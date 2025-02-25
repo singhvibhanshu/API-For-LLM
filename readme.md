@@ -103,7 +103,7 @@ curl -X POST "http://127.0.0.1:8000/generate/" \
 
 ## Notes
 
-- Ensure your OpenAI API key is valid and has sufficient quota.
+- Ensure your API key is valid and has sufficient quota.
 - Adjust the `temperature` and `max_tokens` parameters as needed to get the desired output.
 
 ---
